@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eo pipefail               # stop on first error + propagate exit codes
 RPC=http://127.0.0.1:8545
-KEY=ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80              # ← dev key 0 in Anvil mnemonic
+KEY=ac0974be…ff80              # ← dev key 0 in Anvil mnemonic
 
 export ETH_RPC_URL=$RPC
 export PRIVATE_KEY=$KEY
